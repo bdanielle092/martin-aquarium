@@ -1,7 +1,10 @@
-.quoteList {
+.quotesList {
     background-color: lightyellow;
 }
 
-.quote {
+.quotes {
     background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
