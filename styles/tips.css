@@ -1,4 +1,4 @@
-.tipList {
+.tipsList {
     background-color: dodgerblue;
     height: 100%;
     display: flex;
@@ -6,7 +6,7 @@
     font-size: 14px;
 }
 
-.tip {
+.tips {
     background-color: royalblue;
     
 }
