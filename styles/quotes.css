@@ -4,4 +4,7 @@
 
 .quote {
     background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
