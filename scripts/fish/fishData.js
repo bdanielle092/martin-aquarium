@@ -72,3 +72,40 @@ const fishCollection = [
     
     }
 ]
+
+// 3, 6, 9, 12, etc... fish
+const mostHolyFish = () => {
+    const holyFish = [3, 6, 9, 12]
+
+    for (const holyFish of mostHolyFish) {
+        if(length % 3 === 0)
+        console.log(holsyFish)
+
+    }
+
+    return holyFish
+}
+
+// 5, 10, 15, 20, 25, etc... fish
+const soldierFish = () => {
+    const soldiers = [5, 10, 15, 20, 25]
+
+    
+    for (const soldiers of soldierFish) {
+        if(length % 5 === 0)
+        console.log(soldiers)
+    }
+    return soldiers
+}
+
+// Any fish not a multiple of 3 or 5
+const nonHolyFish = () => {
+    const regularFish = []
+     
+     for (const regularFish of nonHolyFish){
+        if(length % 3 !== 0 &&  % 5 !== 0 )
+        console.log(regularFish)
+     }
+   
+     return regularFish
+}
