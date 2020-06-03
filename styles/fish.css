@@ -6,18 +6,26 @@
     justify-content: space-between;
 }
    
-}
+
 
 .fish {
-    background-color: blue;
-    width: 50%;
-    height: 50%;
+    display: flex;
+    background-color:plum;
+    border: 4px solid white;
+    margin: 4em;
+    word-wrap: wrap;
+    justify-content: left;
+    width: 70%;
+    height: 70%;
+    
 }
 
 
 .fish__picture {
-    max-width: 30rem;
-    max-height: 30rem;
+    display: flex;
+    max-width: 15rem;
+    max-height: 15rem;
+   
 }
 
 

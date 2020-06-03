@@ -8,15 +8,22 @@
 }
 
 .locations {
+    display: flex;
     background-color: mediumseagreen;
-    width: 50%;
-    height: 50%;
-   
+    width: 65%;
+    height: 75%;
+    display: flex;
+    border: 4px solid white;
+    margin: 4em;
+  
+    justify-content: center;
+ 
    
 }
 
 
 .locations__picture {
+    display: flex;
     max-width: 15rem;
     max-height: 15rem;
    
