@@ -1,5 +1,168 @@
 {
-    "fish": [],
-    "locations": [],
-    "tips": []
+  "fish": [
+    {
+      "id": 1,
+      "species": "neon-tetra",
+      "name": "Sliver",
+      "length": 3.5,
+      "location": "South America",
+      "food": "flakes",
+      "picture": "./img/neon-tetra-fish4.jpg"
+    },
+    {
+      "id": 2,
+      "species": "discus",
+      "name": "Red",
+      "length": 15.2,
+      "location": "Brazil",
+      "food": "flakes",
+      "picture": "./img/red-discus-fish5.jpg"
+    },
+    {
+      "id": 3,
+      "species": "Arowana",
+      "name": "Spot",
+      "length": 90,
+      "location": "southwest Asia",
+      "food": "meatly food",
+      "picture": "./img/asian-arowana-red-fish6.jpg"
+    },
+    {
+      "id": 4,
+      "species": "clownfish",
+      "name": "Spike",
+      "length": 10,
+      "location": [
+        "Australia",
+        "southeast Asia",
+        "Japan"
+      ],
+      "food": "flakes",
+      "picture": "./img/clownfish-fish7.jpg"
+    },
+    {
+      "id": 5,
+      "species": "common molly",
+      "name": "molly",
+      "length": 10,
+      "location": "Mexcio",
+      "food": "flakes",
+      "picture": "./img/molly-fish8.jpg"
+    },
+    {
+      "id": 6,
+      "species": "betta",
+      "name": "angel",
+      "length": 7,
+      "location": "Thailand",
+      "food": "pellets",
+      "picture": "./img/betta-fish1.jpg"
+    },
+    {
+      "id": 7,
+      "species": "goldfish",
+      "name": "Gerry",
+      "length": 10,
+      "location": "East Asia",
+      "food": "flakes",
+      "picture": "./img/goldfish-fish 2.jpg"
+    },
+    {
+      "id": 8,
+      "species": "guppy",
+      "name": "Grumpy",
+      "length": 3.5,
+      "location": " northeast south America",
+      "food": " freeze dried food",
+      "picture": "./img/guppy-fish3.jpg"
+    },
+    {
+      "id": 9,
+      "species": "Trigger Fish",
+      "length": 12,
+      "location": "Bay of Bengal",
+      "picture": "./img/triggerfish.jpg",
+      "food": "Baby squid",
+      "name": "Bubbles"
+    },
+    {
+      "id": 10
+    },
+    {
+      "species": "Trigger Fish",
+      "length": 12,
+      "location": "Bay of Bengal",
+      "picture": "./img/triggerfish.jpg",
+      "food": "Baby squid",
+      "name": "Bubbles",
+      "id": 11
+    },
+    {
+      "species": "Trigger Fish",
+      "length": 12,
+      "location": "Bay of Bengal",
+      "picture": "./img/triggerfish.jpg",
+      "food": "Baby squid",
+      "name": "Bubbles",
+      "id": 12
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "picture": "./img/Location1-Japan.jpg",
+      "name": "picture of Japan",
+      "details": "This is where you can find the clownfish."
+    },
+    {
+      "id": 2,
+      "picture": "./img/Location2-amazon-river.jpg",
+      "name": "picture of amazon-river",
+      "details": " This is where you can find the discus fish."
+    },
+    {
+      "id": 3,
+      "picture": "./img/Location3-Asian.jpg",
+      "name": "picture of Asian",
+      "details": "This is where you can find the Arowana fish."
+    },
+    {
+      "id": 4,
+      "picture": "./img/Location4-Mexico.jpg",
+      "name": "picture of Mexico",
+      "details": "This is where you can find the common molly fish."
+    }
+  ],
+  "tips": [
+    {
+      "id": 1,
+      "tips": "Your fish tank should be clean about every two weeks."
+    },
+    {
+      "id": 2,
+      "tips": "The best temperature for your fish tank is 78 to 80 degrees."
+    },
+    {
+      "id": 3,
+      "tips": "53 mS/cm is around the amount of Salinity you should have in your tanks"
+    },
+    {
+      "id": 4,
+      "tips": "You can use soap and water to clean your fish tank"
+    }
+  ],
+  "quotes": [
+    {
+      "id": 1,
+      "quotes": "Fishes live in the sea, as men do a-land; the great ones eat up the little ones. William Shakespeare"
+    },
+    {
+      "id": 2,
+      "quotes": "When you fish for love, bait with your heart, not your brain. Mark Twain"
+    },
+    {
+      "id": 3,
+      "quotes": "Swin in your own direction. Goldfish"
+    }
+  ]
 }
