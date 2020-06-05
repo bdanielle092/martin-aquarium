@@ -6,12 +6,20 @@ const clearFishList = () => contentTarget.innerHTML = ""
 
 fishTypeDropdown.addEventListener("change", (changeEvent) => {
     // Get the value of the option chosen by the user
-    const userChoice = clickEvent.target.value
+    const userChoice = changeEvent.target.value
 
     // If the user chose Holy, clear the list and only show holy fish
     if (userChoice === "holy") {
         clearFishList()
-        displayshowHolyFish()
+        displayHolyFish()
+    }
+    else if (userChoice === "soldier") {
+        clearFishList()
+        displaySoldierFish()
+    }
+    else if (userChoice === "nonHoly") {
+        clearFishList()
+        displayNonHolyFish()
     }
 })
 const fishVisibilityButton = document.querySelector(".toggleFish")
@@ -21,7 +29,7 @@ fishVisibilityButton.addEventListener("click", clickEvent => {
 })
 
 // Function to show holy fish in the browser
-const showHolyFish = () => {
+const displayHolyFish = () => {
     const fishObjectsArray = mostHolyFish()
 
     for (const fishObject of fishObjectsArray) {
@@ -32,7 +40,7 @@ const showHolyFish = () => {
 }
 
 // Function to show soldier fish in the browser
-const showSoldierFish = () => {
+const displaySoldierFish = () => {
     const fishObjectsArray = soldierFish()
 
     for (const fishObject of fishObjectsArray) {
@@ -43,7 +51,7 @@ const showSoldierFish = () => {
 }
 
 // Function to show common fish in the browser
-const showNonHolyFish = () => {
+const displayNonHolyFish = () => {
     const fishObjectsArray = nonHolyFish()
 
     for (const fishObject of fishObjectsArray) {
@@ -57,7 +65,7 @@ const showNonHolyFish = () => {
 
 const fishList = () => {
     // Invoke all three functions here
-    showHolyFish()
-    showSoldierFish()
-    showNonHolyFish()
+    displayHolyFish()
+    displaySoldierFish()
+    displayNonHolyFish()
 }

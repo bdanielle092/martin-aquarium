@@ -1,3 +1,9 @@
+const quotesVisibilityButton = document.querySelector(".toggleQuotes")
+
+quotesVisibilityButton.addEventListener("click", clickEvent => {
+    document.querySelector(".quotesList").classList.toggle("hidden")
+})
+
 /*
 Responsible for generating a list of quotes HTML
 representations, and putting in the browser

@@ -86,25 +86,13 @@
       "name": "Bubbles"
     },
     {
+      "species": "Trigger Fish",
+      "length": 12,
+      "location": "Bay of Bengal",
+      "picture": "./img/triggerfish.jpg",
+      "food": "Baby squid",
+      "name": "Bubbles",
       "id": 10
-    },
-    {
-      "species": "Trigger Fish",
-      "length": 12,
-      "location": "Bay of Bengal",
-      "picture": "./img/triggerfish.jpg",
-      "food": "Baby squid",
-      "name": "Bubbles",
-      "id": 11
-    },
-    {
-      "species": "Trigger Fish",
-      "length": 12,
-      "location": "Bay of Bengal",
-      "picture": "./img/triggerfish.jpg",
-      "food": "Baby squid",
-      "name": "Bubbles",
-      "id": 12
     }
   ],
   "locations": [
