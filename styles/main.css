@@ -27,3 +27,7 @@
 .underTheBanner__right {
     flex: 1;
 }
+.customization {
+background-color: pink;
+text-align: center;
+}

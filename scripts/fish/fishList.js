@@ -21,6 +21,10 @@ fishTypeDropdown.addEventListener("change", (changeEvent) => {
         clearFishList()
         displayNonHolyFish()
     }
+    else if (userChoice === "all") {
+        clearFishList()
+        fishList()
+    }
 })
 const fishVisibilityButton = document.querySelector(".toggleFish")
 
