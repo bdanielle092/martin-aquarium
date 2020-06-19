@@ -1,4 +1,8 @@
+const locationsVisibilityButton = document.querySelector(".toggleLocations")
 
+locationsVisibilityButton.addEventListener("click", clickEvent => {
+    document.querySelector(".locationsList").classList.toggle("hidden")
+})
 /*
 Responsible for generating a list of locations HTML
 representations, and putting in the browser

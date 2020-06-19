@@ -1,3 +1,9 @@
+const tipsVisibilityButton = document.querySelector(".toggleTips")
+
+tipsVisibilityButton.addEventListener("click", clickEvent => {
+    document.querySelector(".tipsList").classList.toggle("hidden")
+})
+
 /*
 Responsible for generating a list of tips HTML
 representations, and putting in the browser

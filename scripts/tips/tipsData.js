@@ -1,14 +1,15 @@
-const tipsCollection = [
-    {
-        tips: "Your fish tank should be clean about every two weeks."
-    },
-    {
-        tips: "The best temperature for your fish tank is 78 to 80 degrees."
-    },
-    {
-        tips: "53 mS/cm is around the amount of Salinity you should have in your tanks"
-    },
-    {
-        tips: "You can use soap and water to clean your fish tank"
-    }
-]
+let tipsCollection = []
+
+const getTipsData = () => {
+    return fetch("http://localhost:8080/tips").then(
+        (httpResponse) => {
+            return httpResponse.json()
+        }
+    )
+    .then (
+        (arrayOfTips) => {
+            tipsCollection = arrayOfTips
+            console.log(tipsCollection)
+        }
+    )
+}
